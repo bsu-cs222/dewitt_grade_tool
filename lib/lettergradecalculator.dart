@@ -1,5 +1,5 @@
 class LetterGradeCalculator {
-  String calculateLetterGrade(int numericGrade) {
+  String calculateLetterGrade(double numericGrade) {
     if (_isNinetyOrGreater(numericGrade)) {
       return "A";
     } else if (_isEightyOrGreater(numericGrade)) {
@@ -15,7 +15,7 @@ class LetterGradeCalculator {
     }
   }
 
-  bool _isNinetyOrGreater(int i) {
+  bool _isNinetyOrGreater(double i) {
     if (i >= 90) {
       return true;
     } else {
@@ -23,7 +23,7 @@ class LetterGradeCalculator {
     }
   }
 
-  bool _isEightyOrGreater(int i) {
+  bool _isEightyOrGreater(double i) {
     if (i >= 80) {
       return true;
     } else {
@@ -31,7 +31,7 @@ class LetterGradeCalculator {
     }
   }
 
-  bool _isSeventyOrGreater(int i) {
+  bool _isSeventyOrGreater(double i) {
     if (i >= 70) {
       return true;
     } else {
@@ -39,7 +39,7 @@ class LetterGradeCalculator {
     }
   }
 
-  bool _isSixtyOrGreater(int i) {
+  bool _isSixtyOrGreater(double i) {
     if (i >= 60) {
       return true;
     } else {
@@ -47,7 +47,7 @@ class LetterGradeCalculator {
     }
   }
 
-  bool _isZeroOrGreater(int i) {
+  bool _isZeroOrGreater(double i) {
     if (i >= 0) {
       return true;
     } else {
