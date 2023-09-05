@@ -11,7 +11,7 @@ class LetterGradeCalculator {
     } else if (_isZeroOrGreater(numericGrade)) {
       return "F";
     } else {
-      return "What could you possible have done to get a negative grade?";
+      return "What could you possibly have done to get a negative grade?";
     }
   }
 
